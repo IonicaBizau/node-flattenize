@@ -89,6 +89,7 @@ var Flattenize = function (options) {
      */
     self.convert = function (imagePath, callback) {
 
+
         // force image path to be a string
         imagePath = String (imagePath);
 
@@ -151,8 +152,10 @@ var Flattenize = function (options) {
             });
         });
     }
+
+    self._flatColors = FlatColors._colors;
+    return self;
 };
 
-Flattenize._flatColors = FlatColors._colors;
 
 module.exports = Flattenize;
