@@ -1,12 +1,12 @@
-# {title}
+# node-flattenize
 An experiment for converting images in flat equivalents.
 
 ## Installation
 Run the following commands to download and install the application:
 
 ```sh
-$ {git} clone {git@github.com:IonicaBizau/node-flattenize.git} {flattenize}
-$ cd {flattenize}
+$ git clone git@github.com:IonicaBizau/node-flattenize.git flattenize
+$ cd flattenize
 $ npm install
 ```
 
