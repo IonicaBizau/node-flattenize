@@ -2,7 +2,7 @@
 var fs = require('fs')
   , PNG = require('pngjs').PNG
   , ImageMagick = require("imagemagick")
-  , FlatColors = require("./node-flatcolors/index")
+  , FlatColors = require("flatcolors")
   , Request = require('request');
   ;
 
@@ -152,5 +152,7 @@ var Flattenize = function (options) {
         });
     }
 };
+
+Flattenize._flatColors = FlatColors._colors;
 
 module.exports = Flattenize;
