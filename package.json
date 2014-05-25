@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:IonicaBizau/flattenize.git"
+    "url": "git@github.com:IonicaBizau/node-flattenize.git"
   },
   "keywords": [
     "flat",
@@ -30,7 +30,7 @@
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/flattenize/issues"
+    "url": "https://github.com/IonicaBizau/node-flattenize/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/flattenize"
+  "homepage": "https://github.com/IonicaBizau/node-flattenize"
 }
