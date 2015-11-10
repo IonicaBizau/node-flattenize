@@ -1,5 +1,6 @@
-var Flattenize = require ("../index")
-  , myImage = new Flattenize ()
+// Dependencies
+var Flattenize = require ("../lib")
+  , myImage = new Flattenize()
   ;
 
 myImage._flatColors.splice(0, myImage._flatColors.length);
