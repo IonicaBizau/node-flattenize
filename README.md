@@ -1,18 +1,22 @@
+
 # flattenize [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/flattenize.svg)](https://www.npmjs.com/package/flattenize) [![Downloads](https://img.shields.io/npm/dt/flattenize.svg)](https://www.npmjs.com/package/flattenize) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > An experiment for converting images in flat equivalents.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save flattenize
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
-var Flattenize = require ("flattenize")
+var Flattenize = require ("../lib")
   , myImage = new Flattenize()
   ;
 
@@ -25,10 +29,12 @@ myImage._flatColors.push.apply(myImage._flatColors, [
   , [252, 211, 9]   // yellow
 ]);
 
+
 myImage.convert("http://www.steegle.com/images/chrome.jpg");
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `convertToPng()`
 This function converts the image from options.imagePath to a png format.
@@ -40,13 +46,13 @@ Converts a png image to flat
 - **String** `imagePath`: The path to the PNG image.
 - **Function** `callback`: The callback function.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
