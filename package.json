@@ -1,6 +1,6 @@
 {
   "name": "flattenize",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "An experiment for converting images in flat equivalents.",
   "main": "lib/index.js",
   "dependencies": {
@@ -29,5 +29,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-flattenize/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-flattenize"
+  "homepage": "https://github.com/IonicaBizau/node-flattenize",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
