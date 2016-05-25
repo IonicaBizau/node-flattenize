@@ -7,7 +7,8 @@
     "flatcolors": "^0.1.0",
     "imagemagick": "^0.1.3",
     "pngjs": "^0.4.0",
-    "request": "^2.36.0"
+    "request": "^2.36.0",
+    "typpy": "^2.3.3"
   },
   "devDependencies": {},
   "scripts": {
