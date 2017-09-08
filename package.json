@@ -1,6 +1,6 @@
 {
   "name": "flattenize",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "An experiment for converting images in flat equivalents.",
   "main": "lib/index.js",
   "dependencies": {
@@ -41,6 +41,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
